@@ -11,8 +11,6 @@ options(recount3_url = "https://recount-opendata.s3.amazonaws.com/recount3/relea
 # Comprobar.
 getOption("recount3_url", "http://duffel.rail.bio/recount3")
 
-available_projects()
-
 ## Revisemos todos los proyectos con datos de humano en recount3
 human_projects <- available_projects()
 
